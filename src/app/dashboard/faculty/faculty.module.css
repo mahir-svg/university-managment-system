@@ -1,0 +1,55 @@
+.container {
+  padding: 30px;
+  background: #f3f4f6;
+  min-height: 100vh;
+  color: black;
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  margin-bottom: 15px;
+}
+
+.card form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card input,
+.card select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.card button {
+  padding: 10px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background: #1d4ed8;
+}
+
+.card ul {
+  padding-left: 20px;
+}

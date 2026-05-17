@@ -1,0 +1,94 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f3f4f6;
+  color: black;
+}
+
+.box {
+  width: 100%;
+  max-width: 420px;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.title {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+.group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.group input,
+.group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  outline: none;
+}
+
+.group input:focus,
+.group select:focus {
+  border-color: #2563eb;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background: #16a34a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #15803d;
+}
+
+.loginText {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: black;
+}
+.loginLink {
+  color: #2563eb;
+ 
+}
+
+.loginLink:hover {
+  text-decoration: underline;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  font-size: 45px;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+}
