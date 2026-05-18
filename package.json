@@ -1,5 +1,10 @@
 {
+<<<<<<< HEAD
   "name": "nestjs",
+=======
+<<<<<<< HEAD
+  "name": "auth-system",
+>>>>>>> 75ce4653ccd959a16b7c707ec95c1e757b59f483
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -78,5 +83,34 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
+<<<<<<< HEAD
+=======
+=======
+  "name": "my-final-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "next": "16.2.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "babel-plugin-react-compiler": "1.0.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.6",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+>>>>>>> 0905b30a393ccc715948dab00a692a78850aa132
+>>>>>>> 75ce4653ccd959a16b7c707ec95c1e757b59f483
   }
 }

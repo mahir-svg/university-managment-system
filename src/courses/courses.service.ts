@@ -1,5 +1,6 @@
 import { Injectable } from '@nestjs/common';
 
+<<<<<<< HEAD
 import { InjectRepository } from '@nestjs/typeorm';
 
 import { Repository } from 'typeorm';
@@ -23,3 +24,7 @@ export class CoursesService {
     return this.courseRepo.find();
   }
 }
+=======
+@Injectable()
+export class CoursesService {}
+>>>>>>> 75ce4653ccd959a16b7c707ec95c1e757b59f483

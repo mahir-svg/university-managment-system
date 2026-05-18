@@ -1,5 +1,6 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
+<<<<<<< HEAD
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { AuthModule } from './auth/auth.module';
@@ -30,3 +31,39 @@ import { Enrollment } from './enrollments/entities/enrollment.entity';
   providers: [AppService],
 })
 export class AppModule {}
+=======
+
+import { AuthModule } from './auth/auth.module';
+import { UsersModule } from './users/users.module';
+import { CoursesModule } from './courses/courses.module';
+
+import { User } from './users/entities/user.entity';
+import { Course } from './courses/entities/course.entity';
+
+@Module({
+  imports: [
+    TypeOrmModule.forRoot({
+      type: 'postgres',
+
+      host: 'localhost',
+
+      port: 5432,
+
+      username: 'postgres',
+
+      password: '1318918',
+
+      database: 'university_db',
+
+      entities: [User, Course],
+
+      synchronize: true,
+    }),
+
+    AuthModule,
+    UsersModule,
+    CoursesModule,
+  ],
+})
+export class AppModule {}
+>>>>>>> 75ce4653ccd959a16b7c707ec95c1e757b59f483
